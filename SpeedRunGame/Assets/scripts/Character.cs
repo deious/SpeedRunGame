@@ -18,7 +18,7 @@ public class Character : MonoBehaviour
     void Update()
     {
         Move();
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && rg.velocity.y == 0)
         {
             jumpCheck = true;
             Jump();
