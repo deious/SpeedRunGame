@@ -5,8 +5,8 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
     // Start is called before the first frame update
-    const float moveSpeed = 3.0f;
-    const float jumpPower = 8.0f;
+    const float moveSpeed = 4.0f;
+    const float jumpPower = 12.5f;
     private bool jumpCheck = false;
     Rigidbody2D rg;
     void Start()
